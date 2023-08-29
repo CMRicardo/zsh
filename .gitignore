@@ -1,4 +1,6 @@
-# Plugins directories
+# Content inside directories
 plugins/**/
-
 themes/**/
+
+# History
+.zsh_history
