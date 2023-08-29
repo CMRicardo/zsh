@@ -41,3 +41,12 @@ cd themes
 cd ~
 ln -s -T .zsh/.zshrc .zshrc
 ```
+
+### 6. Rename .zsh_history_file
+
+```sh
+cd ~/.zsh/
+mv .zsh_history_file .zsh_history
+```
+
+### 7. Customize to your needs
