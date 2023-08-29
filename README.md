@@ -2,6 +2,8 @@
 
 This project contains all of my configuration files for **zsh** on **linux**.
 
+![ZSH-Prompt](img/ZSH-Prompt.png)
+
 ## First steps
 
 ### 1. Clone this repo
