@@ -1,6 +1,6 @@
 alias ..="cd .."
 alias md="mkdir"
-alias cat="bat --theme=OneHalfDark"
+alias cat="bat --theme=ansi"
 alias ls="exa"
 alias ll="exa -l"
 alias ~="cd ~"

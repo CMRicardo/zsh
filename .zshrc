@@ -34,3 +34,21 @@ source $ZSH/keys.zsh
 
 # Starship
 eval "$(starship init zsh)"
+# fnm
+export PATH="/home/ricardo/.local/share/fnm:$PATH"
+eval "`fnm env`"
+
+# bun completions
+[ -s "/home/ricardo/.bun/_bun" ] && source "/home/ricardo/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/home/ricardo/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
